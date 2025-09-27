@@ -1,0 +1,14 @@
+[project]
+name = "manage-aws"
+version = "0.1.0"
+description = "Personal AWS account management for open source purpose."
+requires-python = ">=3.13"
+dependencies = [
+    "aws-cdk-lib==2.214.0",
+    "constructs>=10.0.0,<11.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==6.2.5",
+]
