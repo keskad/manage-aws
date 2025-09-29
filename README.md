@@ -12,7 +12,7 @@ The GitHub Actions in kube-cicd is using only a very restricted role.
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+uv sync
 cdk synth
 ```
 
